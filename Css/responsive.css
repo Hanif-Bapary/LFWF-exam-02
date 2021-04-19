@@ -1,0 +1,165 @@
+@media (max-width:1200px){
+    .hero-content.text-start {
+        width: 120%;
+        margin-left: 75px;
+    }
+    .team-text h6::after {
+        position: inherit;
+    }
+    .team-text h6::before {
+        position: inherit;
+    }
+}
+@media (max-width:991px) {
+    .header-top-left {
+        justify-content: center;
+    }
+    .header-top-left::after {
+        display: none;
+    }
+    .header-top-right {
+        justify-content: center !important;
+    }
+    .header-top-right::after {
+        display: none;
+    }
+    .search-right {
+        display: none !important;
+    }
+    .my-primary-menu>li{
+        background: #0b1721;
+        border-bottom: 1px solid #fafafa;
+        position: relative;
+    }
+    .my-primary-menu li a {
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .my-primary-menu li a span {
+        border: 1px solid #ddd;
+        height: 22px;
+        width: 22px;
+        text-align: center;
+        line-height: 22px;
+        display: inline-block;
+        background: red;
+    }
+    /* .my-primary-menu > li.nav-item.dropdown::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 45px;
+        height: 100%;
+        width: 1px;
+        background: #fafafa;
+    } */
+    .my-primary-menu li > ul > li {
+        background: #2d3ba6;
+    }
+    .my-primary-menu li > ul > li > ul >li{
+        background-color: #b724ce;
+    }
+    .hero-content.text-start {
+        width: 156%;
+    }
+    .counter-items-wrap.d-flex.justify-content-evenly.p-4 {
+        flex-wrap: wrap;
+    }
+    .counter-item {
+        width: 46%;
+        margin: 2% 2%;
+    }
+    .contact-form {
+        top: 20px;
+        left: 0;
+    }
+    .project-member-card {
+        flex-wrap: wrap;
+    }
+    .project-member-card img {
+        flex-basis: 100px;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:768px){
+    .hero-content.text-start {
+        width: 75%;
+        margin: auto;
+    }
+    .hero-section .hero-content h1 {
+        font-size: 35px;
+    }
+    .hero-section .hero-content p {
+        font-size: 15px;
+    }
+    .experience-text-title h2 {
+        font-size: 30px;
+    }
+    .progress-left h2 {
+        font-size: 30px;
+    }
+    .project-left-title h2 {
+        font-size: 30px;
+    }
+    .team-text h2 {
+        font-size: 30px;
+    }
+    .footer-wedget img {
+        max-width: 25%;
+    }
+}
+@media (max-width:576px){
+    .header-top-section {
+        display: none;
+    }
+    .counter-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .animation-btn {
+        right: 50%;
+        bottom: 50%;
+    }
+    .header-top-left {
+        flex-wrap: wrap;
+    }
+    .hero-content.text-start {
+        width: 65%;
+        margin: auto;
+    }
+    .header-left-item {
+        flex-basis: 100%;
+        justify-content: center;
+    }
+    .hero-section .hero-content h1 {
+        font-size: 22px;
+    }
+    .hero-section .hero-content p {
+        font-size: 12px;
+        margin: 10px 0;
+    }
+    .defaul-btn .btn {
+        padding: 5px 15px;
+    }
+    .carousel-control-prev-icon {
+        font-size: 20px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        left: 0%;
+    }
+    .carousel-control-next-icon {
+        font-size: 20px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        right: 0%;
+    }
+}
+@media (max-width:400px){
+    .blog-card .card .blog-img .card-btn {
+        bottom: -84%;
+    }
+}
